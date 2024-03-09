@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/style.css">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#7FC7D9',
+            background: '#F3EEEA',
+            brown: '#B0A695',
+            brown2: '#776B5D'
+          },
+          container: {
+            center: true,
+            padding:"16px"
+          }
+        }
+      }
+    }
+  </script>
+</head>
+    <body class="bg-background">
+      <section id="home" class="pt-24 pb-24">
+          <div class="flex flex-wrap">
+            <div align="center" class="w-full px-4 lg:w-1/2">
+              <img src="./img/iyus2.jpeg" alt="" width="400" class="rounded-full shadow-xl shadow-warnaterang " >
+            </div>
+            <div class="w-full px-4 lg:w-1/2 self-center">
+              <h1 class="mt-5 text-2xl mb-5 font-bold text-black"> Hello i'm ayus <span class="title"></span></h1>
+              <p class="mb-5 tracking-tight font-extralight text-darkColor">Halo saya Fairuz Aljufry saya seorang pelajar, saya memiliki hobi membaca dan memasak, </p>
+              <a href="#" class="bg-brown2 px-5 py-2 font-bold text-lg text-background rounded-lg shadow-lg shadow-warnaterang">cv</a>
+            </div>
+          </div>
+        </div>
+  </section>
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed('.title', {
+      strings: ['감사합니다', '사랑해요'],
+      typeSpeed: 80,
+      backSpeed: 80,
+    });
+  </script>
+  <section id="about" class="pt-24 pb-24">
+  <div class="container">
+  <h1 class="text-center font-bold text-lg mb-5">About Me</h1>
+  <div class="flex flex-wrap">
+  <div align="center" class="w-full lg:w-1/2 px-4 mt-5 mb-8">
+    <img src="./img/kakanglimm.jpg" alt="" width="400" class="rounded-full shadow-xl shadow-warnaterang">
+  </div>
+  <div class="w-full lg:w-1/2 px-4 self-center">
+    <h1 class="font-bold text-lg text-darkColor mb-5">Hello everyone</h1>
+    <hr class="border-brown2 sm:mx-auto mb-7">
+  <div class="grid grid-cols-1 lg:grid-cols-3 gap-2">
+    <div class="mb-2 grid">
+      <h1 class="font-bold text-lg text-dark-color mb-2">Sosial Media</h1>
+      <a href="#" class="font-regular text-md text-black">Instagram
+        <a href="https://instagram.com/aljufrifairuz" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+      </a>
+      <a href="#" class="font-regular text-md text-black">Facebook</a>
+      <a href="#" class="font-regular text-md text-black">x</a>
+      <a href="#" class="font-regular text-md text-black">Github</a>
+    </div>
+
+    <div class="mb-2 grid">
+      <h1 class="font-bold text-lg text-dark-color mb-2">Activity</h1>
+      <h1 class="font-regular text-md text-black">Cook</a>
+      <h1 class="font-regular text-md text-black">sleep</a>
+      <h1 class="font-regular text-md text-black">eat</a>
+      <h1 class="font-regular text-md text-black">Read</a>
+    </div>
+
+      <div class="mb-2">
+        <h1 class="font-bold text-lg text-dark-color mb-2">Web Personal</h1>
+        <a href="#" class="font-regular text-md text-black flex">Portofolio</a>
+        <a href="#" class="font-regular text-md text-black">Blog</a>
+      </div>
+</body>
+</html>
